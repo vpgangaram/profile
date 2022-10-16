@@ -73,9 +73,7 @@ a {
     color: #FFE33B;
     padding-bottom: 4vh;
   }
-  .nav-l a:hover {
-    background:blue;
-  }
+ 
 
   #about, #pe, #skills, #projects, #contact, #awards {
     display: flex;
@@ -123,6 +121,13 @@ li{
 .nav-list a {
   display: block;
   font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  display: block;
+  transition: 60ms;
+  font-size: 2.5rem;
   padding: 2rem;
 }
 
